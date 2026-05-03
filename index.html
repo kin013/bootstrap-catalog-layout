@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Language Switcher -->
+            <div>
+                <img src="assets/russian-flag.png" alt="Russian" class="language-icon">
+                <img src="assets/usa-flag.png" alt="English" class="language-icon">
+            </div>
+            <!-- Navigation Links -->
+            <nav class="d-none d-md-block">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Магазин</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Social Links and Login -->
+            <div>
+                <a href="#" class="social-icon">
+                    <img src="assets/vk-icon.png" alt="VK">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="assets/discord-icon.png" alt="Discord">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="assets/twitch-icon.png" alt="Twitch">
+                </a>
+                <a href="#" class="btn btn-primary">Войти</a>
+            </div>
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <!-- Collapsible content for mobile -->
+        <div class="collapse navbar-collapse d-md-none" id="navbarContent">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Магазин</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Магазин</h1>
+            </div>
+        </div>
+        <!-- Shop Menu -->
+        <div class="row mb-4">
+            <div class="col-12 d-flex flex-wrap justify-content-center">
+                <button class="btn btn-dark mx-2 mb-2">Все</button>
+                <button class="btn btn-dark mx-2 mb-2">Привелегии</button>
+                <button class="btn btn-dark mx-2 mb-2">Наборы</button>
+                <button class="btn btn-dark mx-2 mb-2">Рейды</button>
+                <button class="btn btn-dark mx-2 mb-2">Конструкции</button>
+                <button class="btn btn-dark mx-2 mb-2">Компоненты</button>
+                <button class="btn btn-dark mx-2 mb-2">Модули</button>
+                <button class="btn btn-dark mx-2 mb-2">Ресурсы</button>
+                <button class="btn btn-dark mx-2 mb-2">Верстак 1</button>
+                <button class="btn btn-dark mx-2 mb-2">Верстак 2</button>
+                <button class="btn btn-dark mx-2 mb-2">Верстак 3</button>
+                <button class="btn btn-dark mx-2 mb-2">Инструменты</button>
+            </div>
+        </div>
+        <!-- Product Cards -->
+        <div class="row">
+            <!-- Product Card Example -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card-link">
+                    <div class="card bg-dark text-white">
+                        <img src="assets/product1.png" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <p class="card-text text-center">649 РУБ</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card-link">
+                    <div class="card bg-dark text-white">
+                        <img src="assets/product2.png" class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <p class="card-text text-center">649 РУБ</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card-link">
+                    <div class="card bg-dark text-white">
+                        <img src="assets/product3.png" class="card-img-top" alt="Product 3">
+                        <div class="card-body">
+                            <p class="card-text text-center">649 РУБ</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card-link">
+                    <div class="card bg-dark text-white">
+                        <img src="assets/product4.png" class="card-img-top" alt="Product 4">
+                        <div class="card-body">
+                            <p class="card-text text-center">649 РУБ</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card-link">
+                    <div class="card bg-dark text-white">
+                        <img src="assets/product5.png" class="card-img-top" alt="Product 5">
+                        <div class="card-body">
+                            <p class="card-text text-center">649 РУБ</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card-link">
+                    <div class="card bg-dark text-white">
+                        <img src="assets/product6.png" class="card-img-top" alt="Product 6">
+                        <div class="card-body">
+                            <p class="card-text text-center">649 РУБ</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card-link">
+                    <div class="card bg-dark text-white">
+                        <img src="assets/product7.png" class="card-img-top" alt="Product 7">
+                        <div class="card-body">
+                            <p class="card-text text-center">649 РУБ</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="card-link">
+                    <div class="card bg-dark text-white">
+                        <img src="assets/product8.png" class="card-img-top" alt="Product 8">
+                        <div class="card-body">
+                            <p class="card-text text-center">649 РУБ</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

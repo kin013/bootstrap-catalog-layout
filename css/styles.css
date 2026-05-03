@@ -1,0 +1,102 @@
+body {
+    background: #150A09;
+}
+
+.language-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    margin-right: 15px;
+    background-color: #333; /* Темный фон для кнопок навигации */
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #555; /* Цвет кнопок навигации при наведении */
+}
+
+.social-icon {
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Стили для заголовка */
+header {
+    background: #0D0D0D; /* Задний фон заголовка */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav {
+    display: flex;
+}
+
+header .nav-item {
+    margin-right: 15px;
+}
+
+header .btn-primary {
+    background-color: #8B4513; /* Цвет кнопки "Войти" */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+header .btn-primary:hover {
+    background-color: #A0522D; /* Цвет кнопки "Войти" при наведении */
+}
+
+/* Стили для кнопок меню магазина */
+.btn-dark {
+    background-color: #8B4513; /* Цвет кнопок меню */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn-dark:hover {
+    background-color: #A0522D; /* Цвет кнопок при наведении */
+}
+
+/* Стили для карточек товаров */
+.card {
+    background: linear-gradient(180deg, #351406 0%, #20130D 100%); /* Градиент для карточек */
+    border: none;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Стили для кликабельных карточек */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-link:hover .card {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
